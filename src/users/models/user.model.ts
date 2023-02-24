@@ -56,6 +56,7 @@ export class User extends Model {
   @Column
   name: string;
 
+  @Default('user')
   @AllowNull(false)
   @Column
   role: string;
