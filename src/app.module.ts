@@ -17,7 +17,7 @@ import { UsersModule } from './users/users.module';
     FilesModule,
     ConfigModule.forRoot({
       validationSchema: Joi.object({
-        PORT: Joi.number().default(3000),
+        PORT: Joi.number().default(2000),
         JWT_SECRET: Joi.string().required(),
         // DB
         DATABASE_DIALECT: Joi.string()
